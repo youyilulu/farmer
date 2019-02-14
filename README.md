@@ -35,5 +35,5 @@ npm run ci
 
 ## ToDos
 - [x] config database migration
-- [ ] integrate egg-born framework
+- [x] integrate egg-born framework
 - [ ] hello world
