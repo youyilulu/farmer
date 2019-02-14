@@ -4,8 +4,9 @@
   "description": "",
   "dependencies": {
     "egg": "2.10.0",
+    "egg-scripts": "^2.5.0",
     "egg-sequelize": "^4.0.2",
-    "egg-scripts": "^2.5.0"
+    "mysql2": "^1.6.5"
   },
   "devDependencies": {
     "autod": "^3.0.1",
@@ -30,7 +31,10 @@
   "ci": {
     "version": "8"
   },
-  "eslintIgnore": [ "coverage", "dist" ],
+  "eslintIgnore": [
+    "coverage",
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": ""

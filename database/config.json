@@ -1,16 +1,18 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "define-your-own-databse-for-development",
+    "password": "Abcd@1234",
+    "database": "farmer",
     "host": "127.0.0.1",
+    "port": "3307",
     "dialect": "mysql"
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "define-your-own-databse-for-unittest",
+    "password": "Abcd@1234",
+    "database": "farmer_unittest",
     "host": "127.0.0.1",
+    "port": "3307",
     "dialect": "mysql"
   }
 }
