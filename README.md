@@ -34,6 +34,6 @@ npm run ci
 [factory-girl](https://github.com/aexmachina/factory-girl)
 
 ## ToDos
-- [ ] config database migration
+- [x] config database migration
 - [ ] integrate egg-born framework
 - [ ] hello world
