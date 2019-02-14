@@ -2,8 +2,12 @@
   "name": "farmer",
   "version": "1.0.0",
   "description": "",
+  "egg": {
+    "framework": "egg-born"
+  },
   "dependencies": {
     "egg": "2.10.0",
+    "egg-born": "../egg-born",
     "egg-scripts": "^2.5.0",
     "egg-sequelize": "^4.0.2",
     "mysql2": "^1.6.5"
