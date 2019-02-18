@@ -27,6 +27,7 @@
   },
   "scripts": {
     "autod": "autod",
+    "debug": "egg-bin debug",
     "lint": "eslint .",
     "test": "egg-bin test",
     "cov": "egg-bin cov",
