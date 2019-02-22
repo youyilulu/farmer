@@ -27,7 +27,9 @@ describe('test/app/service/users.test.js', () => {
   describe('POST /users', () => {
     it('should work', async () => {
       app.mockCsrf();
-      let res = await app.httpRequest().post('/users')
+      let res = await app
+        .httpRequest()
+        .post('/users')
         .send({
           age: 10,
           name: 'name',
