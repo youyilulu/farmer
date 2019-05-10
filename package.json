@@ -28,6 +28,7 @@
   "scripts": {
     "autod": "autod",
     "debug": "egg-bin debug",
+    "dev": "egg-bin dev",
     "lint": "eslint .",
     "test": "egg-bin test",
     "cov": "egg-bin cov",
